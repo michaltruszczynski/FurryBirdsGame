@@ -1,6 +1,6 @@
 .game {
 	height: 100vh;
-	background-image: url(../images/background.png);
+	background-image: url(./images/background.png);
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
@@ -24,7 +24,7 @@
 }
 
 .expolsion {
-	background: url(.../images/83208.png) no-repeat 0 -496px;
+	background: url(./images/83208.png) no-repeat 0 -496px;
 	width: 115px;
 	height: 110px;
 }

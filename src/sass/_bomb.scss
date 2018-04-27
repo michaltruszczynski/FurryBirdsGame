@@ -1,6 +1,6 @@
 .bomb {
 	//top: 200px;
-	background: url(../images/bomb.png) no-repeat -609px -7px;
+	background: url(./images/bomb.png) no-repeat -609px -7px;
 	width: 64px;
 	height: 86px;
 	position: absolute;
@@ -35,7 +35,7 @@
 }
 
 .explosionBomb {
-	background: url(../images/83208.png) no-repeat -127px -441px;
+	background: url(./images/83208.png) no-repeat -127px -441px;
 	width: 90px;
 	height: 90px;
 	opacity: 0;
