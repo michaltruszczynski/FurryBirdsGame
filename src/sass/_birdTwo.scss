@@ -1,0 +1,50 @@
+.birdTwo1 {
+	top: 200px;
+	background: url(../images/Yellow_bird_spirites_2.png) no-repeat -15px -43px;
+	width: 63px;
+	height: 60px;
+	position: absolute;
+	animation: birdTwoFly1 8s infinite;
+
+}
+
+@keyframes birdTwoFly1
+{
+  0% { transform:translate(0, 0); }
+  100% { transform:translate(110vw, 0px); }
+}
+
+
+.birdTwo2 {
+	top: 375px;
+	background: url(../images/Yellow_bird_spirites_2.png) no-repeat -15px -43px;
+	width: 63px;
+	height: 60px;
+	position: absolute;
+	animation: birdTwoFly2 4s infinite;
+
+}
+
+@keyframes birdTwoFly2
+{
+  0% { transform:translate(0, 0); }
+  40% { transform:translate(50vw, 100px); }
+  60% { transform:translate(80vw, 0px); }
+  100% { transform:translate(110vw, 0px); }
+}
+
+.birdTwo3 {
+	top: 450px;
+	background: url(../images/Yellow_bird_spirites_2.png) no-repeat -15px -43px;
+	width: 63px;
+	height: 60px;
+	position: absolute;
+	animation: birdTwoFly3 9s infinite;
+
+}
+
+@keyframes birdTwoFly3
+{
+  0% { transform:translate(0, 0); }
+  100% { transform:translate(110vw, 0px); }
+}

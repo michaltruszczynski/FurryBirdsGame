@@ -1,0 +1,40 @@
+@import 'base';
+@import 'birdOne';
+@import 'birdTwo';
+@import 'game';
+@import 'bomb';
+@import 'end';
+
+.startPage {
+  height: 100vh;
+  background-image: url("../images/startPage.jpg");
+  overflow: hidden;
+  position: relative;
+  cursor: crosshair;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.startButton {
+  top: 400px;
+  font-size: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+input {
+  width: 30px;
+  height: 40px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+  margin: 30px;
+}

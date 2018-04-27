@@ -1,0 +1,48 @@
+.bomb {
+	//top: 200px;
+	background: url(../images/bomb.png) no-repeat -609px -7px;
+	width: 64px;
+	height: 86px;
+	position: absolute;
+	animation: upDownBomb 2s alternate infinite ease-in-out;
+	//animation: birdOneFly 5s infinite;
+}
+
+//przesowanie się elementu po planszy
+@keyframes bombFly1
+	{
+	  0% { transform:translate(0, 0); }
+	  33% { transform:translate(468px, 0px); }
+	  66%{ transform:translate(936px, 0); }
+	  100% { transform:translate(110vw, 0px);}
+	}
+
+@keyframes bombFly2
+	{
+	  0% { transform:translate(0, 0); }
+	  25% { transform:translate(250px, 80px); }
+	  50% { transform:translate(560px, 130px); }
+	  66%{ transform:translate(768px, 30px); }
+	  100% { transform:translate(110vw, 300px);}
+	}
+
+@keyframes upDownBomb {
+	to {transform: translatey(100px);}
+}
+
+@keyframes translateBomb {
+	to {transform: translatex(900%);}
+}
+
+.explosionBomb {
+	background: url(../images/83208.png) no-repeat -127px -441px;
+	width: 90px;
+	height: 90px;
+	opacity: 0;
+	animation: bumBomb 0.8s 0s linear 1;
+}
+
+@keyframes bumBomb {
+	0%	{opacity: 1;}
+	100% {opacity: 0;}
+}

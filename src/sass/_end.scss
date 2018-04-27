@@ -1,0 +1,20 @@
+.end {
+	height: 100vh;
+	background-image: url(../images/angry-birds-champions-cash.jpg);
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	cursor: crosshair;
+	display: flex;
+	justify-content: center
+}
+
+.showscore {
+	height: 100px;
+	width: 500px;
+	top: 22px;
+	font-size: 70px;
+	color: tomato;
+	text-align: center;
+	position: absolute;
+}
